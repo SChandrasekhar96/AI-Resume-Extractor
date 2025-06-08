@@ -5,7 +5,6 @@ from transformers import pipeline
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 def extract_text_from_pdf(pdf_file):
-    """Extracts raw text from uploaded PDF using pdfplumber."""
     text = ""
     with pdfplumber.open(pdf_file) as pdf:
         for page in pdf.pages:
