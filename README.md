@@ -11,7 +11,7 @@ A web application that extracts skills and relevant information from PDF resumes
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8
 - Docker (for containerized deployment)
 
 ## Installation
